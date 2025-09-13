@@ -149,3 +149,41 @@ body {
 #suggestions button:hover {
   opacity: 1;
 }
+
+/* Ajustes para telas pequenas */
+@media (max-width: 480px) {
+  body {
+    min-height: 100vh; /* evita problemas do 100vh no mobile */
+    padding: 1rem;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .form-input-container {
+    flex-direction: column;
+  }
+
+  .form input {
+    margin-bottom: 0.8rem;
+    width: 100%;
+  }
+
+  .form button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #temperature {
+    font-size: 2.5rem; /* ajusta para caber melhor */
+  }
+
+  #suggestions button {
+    width: 100%;
+    min-width: unset;
+    margin: 0.4rem 0;
+  }
+}
