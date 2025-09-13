@@ -52,7 +52,5 @@ Certifique-se de que o nome da cidade está correto e tente novamente.
 📄 Licença
 
 Este projeto está licenciado sob a MIT License
-
-Acesse: https://enchanting-sprinkles-1c88d4.netlify.app/
 .
 
